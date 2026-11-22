@@ -1,4 +1,6 @@
-# `.codasaurus.toml` schema
+---
+title: "`.codasaurus.toml` schema"
+---
 
 <p>
   <img src="https://img.shields.io/badge/config-TOML-64748b" alt="TOML">
@@ -196,4 +198,4 @@ When a BYOK LLM is configured and enabled for the repo, the judge scores heurist
 }
 ```
 
-See also: [configuration.md](configuration.md), [commands.md](commands.md).
+See also: [configuration.md](/docs/configuration/), [commands.md](/docs/commands/).

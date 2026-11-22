@@ -1,4 +1,6 @@
-# Configuration
+---
+title: "Configuration"
+---
 
 <p>
   <img src="https://img.shields.io/badge/config-env%20%7C%20TOML%20%7C%20DB-64748b" alt="Config">
@@ -100,7 +102,7 @@ Dashboard **Settings → Connections** covers GitHub App, OIDC (`OIDC_*`), and J
 | `OIDC_CLIENT_SECRET` | Client secret                                   |
 | `PUBLIC_URL`         | Base URL for invite links and IdP redirect URIs |
 
-The first account is created as the **bootstrap owner** (shown as **Superuser**) in the [onboarding wizard](setup-onboarding.md). That account cannot be demoted or removed until bootstrap is transferred to another owner. Additional members join via **invite links** (Team page). No SMTP required.
+The first account is created as the **bootstrap owner** (shown as **Superuser**) in the [onboarding wizard](/docs/setup-onboarding/). That account cannot be demoted or removed until bootstrap is transferred to another owner. Additional members join via **invite links** (Team page). No SMTP required.
 
 #### Roles
 
@@ -155,7 +157,7 @@ iac = true
 review_strictness = "balanced"
 ```
 
-Full field reference: [codasaurus-toml.md](codasaurus-toml.md).
+Full field reference: [codasaurus-toml.md](/docs/codasaurus-toml/).
 
 Per-repo overlays and policy packs are edited in the dashboard (`config_json`, forbidden paths, severity caps, auto-labels, Check Runs, `@codasaurus fix`).
 
@@ -220,4 +222,4 @@ The Dashboard **Review analytics** panel rolls up the last 7 days from Postgres 
 docker compose up
 ```
 
-Compose starts Postgres 16 and Codasaurus with `DATABASE_URL` already wired. Details: [database.md](database.md). Backups: [operations-backup-restore.md](operations-backup-restore.md).
+Compose starts Postgres 16 and Codasaurus with `DATABASE_URL` already wired. Details: [database.md](/docs/database/). Backups: [operations-backup-restore.md](/docs/operations-backup-restore/).

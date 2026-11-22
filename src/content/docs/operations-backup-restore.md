@@ -1,4 +1,6 @@
-# Backup and restore
+---
+title: "Backup and restore"
+---
 
 <p>
   <img src="https://img.shields.io/badge/ops-backup-f59e0b" alt="Backup">
@@ -7,7 +9,7 @@
   <a href="README.md"><img src="https://img.shields.io/badge/docs-index-111827" alt="Docs index"></a>
 </p>
 
-State lives in **PostgreSQL** (`DATABASE_URL=postgres://…`). Treat the database and your secret store as the recovery unit. Schema and pool details: [database.md](database.md).
+State lives in **PostgreSQL** (`DATABASE_URL=postgres://…`). Treat the database and your secret store as the recovery unit. Schema and pool details: [database.md](/docs/database/).
 
 
 ## What to back up
