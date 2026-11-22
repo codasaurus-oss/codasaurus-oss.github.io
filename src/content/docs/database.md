@@ -35,7 +35,7 @@ codasaurus serve --port 3000
 
 Unset `DATABASE_URL` falls back to that same local default (**not** on Render; there it is required).
 
-**$0 forever (no trials):** [run-for-free.md](/docs/run-for-free/). Render free web + Aiven Free Postgres (or Neon).
+**$0 forever (no trials):** [run-for-free.md](/run-for-free/). Render free web + Aiven Free Postgres (or Neon).
 
 ## Cloud Postgres (Aiven / Neon / Supabase)
 
@@ -64,7 +64,7 @@ The app could not open a live Postgres connection before the timeout. On free st
 
 | Check | Fix |
 | --- | --- |
-| Missing / wrong `DATABASE_URL` | Aiven Service URI or Neon/Supabase session/direct URI ([run-for-free.md](/docs/run-for-free/)) |
+| Missing / wrong `DATABASE_URL` | Aiven Service URI or Neon/Supabase session/direct URI ([run-for-free.md](/run-for-free/)) |
 | Neon compute asleep | Open the Neon console once, then redeploy |
 | TLS | Latest Codasaurus adds `sslmode=require` for remote hosts automatically |
 | Transaction pooler (`:6543`) | Use session/direct instead |
@@ -97,4 +97,4 @@ Point every Codasaurus replica at the **same** `DATABASE_URL`. The queue and SHA
 
 ## Backup
 
-See [operations-backup-restore.md](/docs/operations-backup-restore/).
+See [operations-backup-restore.md](/operations-backup-restore/).

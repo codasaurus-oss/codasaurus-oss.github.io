@@ -10,7 +10,7 @@ Requires Node 20+.
 
 ```bash
 npm ci
-npm run dev      # http://localhost:4321/docs/
+npm run dev      # http://localhost:4321/
 ```
 
 ## Build
@@ -22,7 +22,7 @@ npm run build    # writes dist/
 ## Publishing
 
 Every push to `main` builds and deploys through GitHub Pages. The site is served
-from `https://codasaurus-oss.github.io/docs/`.
+from `https://codasaurus-oss.github.io/`.
 
 ## Contributing
 

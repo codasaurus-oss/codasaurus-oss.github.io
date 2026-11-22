@@ -100,7 +100,7 @@ curl -s https://YOUR-SERVICE.onrender.com/health
 | Render free Postgres           | Don’t. It expires                                                                    |
 | Stale deploy                   | Manual Deploy of latest `main`                                                        |
 
-`CODASAURUS_FREE_TIER=1` (or an Aiven/Neon/Supabase URL) turns on free-host manners: pool of 3, longer timeouts, one review at a time, well under Aiven free’s `max_connections=20`. More in [database.md](/docs/database/).
+`CODASAURUS_FREE_TIER=1` (or an Aiven/Neon/Supabase URL) turns on free-host manners: pool of 3, longer timeouts, one review at a time, well under Aiven free’s `max_connections=20`. More in [database.md](/database/).
 
 ```bash
 # Stack D: zero cloud, zero excuses

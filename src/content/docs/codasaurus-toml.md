@@ -198,4 +198,4 @@ When a BYOK LLM is configured and enabled for the repo, the judge scores heurist
 }
 ```
 
-See also: [configuration.md](/docs/configuration/), [commands.md](/docs/commands/).
+See also: [configuration.md](/configuration/), [commands.md](/commands/).

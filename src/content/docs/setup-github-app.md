@@ -8,7 +8,7 @@ title: "GitHub App setup"
   <a href="README.md"><img src="https://img.shields.io/badge/docs-index-111827" alt="Docs index"></a>
 </p>
 
-Codasaurus reviews PRs as a **GitHub App**. Prefer the dashboard [onboarding wizard](/docs/setup-onboarding/) (manifest flow). Use this guide for manual registration or troubleshooting.
+Codasaurus reviews PRs as a **GitHub App**. Prefer the dashboard [onboarding wizard](/setup-onboarding/) (manifest flow). Use this guide for manual registration or troubleshooting.
 
 ## Permissions
 
@@ -76,7 +76,7 @@ export GITHUB_APP_PRIVATE_KEY="$(cat codasaurus.pem)"
 export GITHUB_WEBHOOK_SECRET="…"
 ```
 
-The setup wizard and **Settings → Connections → GitHub App** can store the same fields in the DB. Env vars win when both are set (see [configuration.md](/docs/configuration/)).
+The setup wizard and **Settings → Connections → GitHub App** can store the same fields in the DB. Env vars win when both are set (see [configuration.md](/configuration/)).
 
 ## Install on repositories
 
