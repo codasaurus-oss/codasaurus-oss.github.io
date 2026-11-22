@@ -6,7 +6,7 @@ Content lives in `src/content/docs/`. Each page is Markdown with a `title` in fr
 
 ## Development
 
-Requires Node 20+.
+Requires Node 22+.
 
 ```bash
 npm ci
